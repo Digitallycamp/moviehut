@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MovieHut",
-    "slug": "MovieHut",
+    "slug": "moviehut",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,7 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -29,11 +31,14 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["@react-native-google-signin/google-signin"],
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
     "extra": {
       "eas": {
-        "projectId": "53596a72-77f8-4762-b56b-e50eb8178317"
+        "projectId": "2fcd045e-e528-40f1-bd00-3667c1d1961c"
       }
-    }
+    },
+    "owner": "crytech"
   }
 }
